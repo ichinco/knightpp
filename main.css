@@ -1,0 +1,58 @@
+body {
+    font-family: helvetica, sans-serif;
+}
+
+.fact-sheet,
+.navigation {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.name {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+.fact {
+    font-size: 1.5em;
+    margin-bottom: 7px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.subfact {
+    font-size: 1.05em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.navigation{
+    text-align: center;
+}
+
+.navigation .nav-list {
+    padding: 0;
+    min-width: 20px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.navigation .nav-link {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+}
